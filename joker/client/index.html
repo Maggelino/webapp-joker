@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Joker Web App</title>
+        <link rel="stylesheet" href="./assets/css/app.css" type="text/css">
+        <link rel="stylesheet" href="assets/iconic" />
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+        <script src="./assets/js/foundation.js"></script>
+        <script src="./assets/js/templates.js"></script>
+        <script src="./assets/js/routes.js"></script>
+        <script src="./assets/js/app.js"></script>
+    </head>
+    
+    <body>
+        <div class="grid-frame vertical">
+            <div class="grid-block shrink wrap" style="padding: 0;">
+                
+                <div class="grid-content collapse small-12 medium-5">
+                    <ul class="primary menu-bar">
+                        <li ui-sref-active="is-active"><a ui-sref="home"><strong>
+                        <img zf-iconic="" icon="star" size="small" class="float-left">THE JOKER<img zf-iconic="" icon="star" size="small" class="float-right"></strong></a></li>
+                    </ul>
+                </div>
+                <div class="grid-content collapse small-12 medium-7">
+                    <ul class="primary menu-bar">
+                        <li ui-sref-active="is-active"><a ui-sref="topten">TOP 10</a></li>
+                        <li ui-sref-active="is-active"><a ui-sref="login">LOGIN</a></li>
+                        <li ui-sref-active="is-active"><a ui-sref="profile">PROFILE</a></li>
+                    </ul>
+                </div> 
+            </div>
+            
+            
+            <div class="grid-block">
+                <div ui-view class="grid-content"> </div>
+            </div>   
+            
+            
+            <div class="grid-block shrink wrap" style="padding: 0;">
+                <div class="grid-content collapse small-12">
+                    <ul class="primary menu-bar">
+                        <li ui-sref-active="is-active"><a ui-sref="email"><strong>info@thejoker.se</strong></a></li>
+                    </ul>
+                </div> 
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
+
