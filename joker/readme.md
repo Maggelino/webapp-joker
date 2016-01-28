@@ -14,7 +14,7 @@ You'll need the following software installed to get started.
 
 ## Get Started
 
-Clone this repository, where `app` is the name of your app.
+Clone this repository, where `joker` is the name of your app. Or download Zip.
 
 ```bash
 git clone https://github.com/Maggelino/webapp-joker.git joker
