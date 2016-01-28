@@ -1,10 +1,6 @@
-# Foundation for Apps Template
+# SPA WEB APPLICATION - Based on Foundation for Apps
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-apps-template/dev-status.svg)](https://david-dm.org/zurb/foundation-apps-template#info=devDependencies)
-
-This is the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass. It provides you with a basic template to get started with Foundation for Apps and Angular.
-
-If you're already an Angular developer, you may instead want to install the components into your own stack using Bower: `bower install foundation-apps`
+This is a school project, a single page web application, created with Foundation for Apps, powered by Gulp, Angular, and libsass. It has Dynamic Routing built with Templates and Views. Please notice! not complete, still work in progress.
 
 ## Requirements
 
@@ -21,13 +17,13 @@ You'll need the following software installed to get started.
 Clone this repository, where `app` is the name of your app.
 
 ```bash
-git clone https://github.com/zurb/foundation-apps-template.git app
+git clone https://github.com/Maggelino/webapp-joker.git joker
 ```
 
 Change into the directory.
 
 ```bash
-cd app
+cd joker
 ```
 
 Install the dependencies. If you're running Mac OS or Linux, you may need to run `sudo npm install` instead, depending on how your machine is configured.
