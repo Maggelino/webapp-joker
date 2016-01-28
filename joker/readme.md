@@ -1,4 +1,4 @@
-# SPA WEB APPLICATION - Based on Foundation for Apps
+# SPA WEB APP - Based on Foundation for Apps
 
 This is a school project, a single page web application, created with Foundation for Apps, powered by Gulp, Angular, and libsass. It has Dynamic Routing built with Templates and Views. Please notice! not complete, still work in progress.
 
